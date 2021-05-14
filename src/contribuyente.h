@@ -22,6 +22,9 @@ typedef struct {
 int inicializarContribuyente(Contribuyente arrayContribuyente[], int lengArray);
 int buscarLibre(Contribuyente arrayContribuyente[], int lengArray, int *posicion);
 int ingresarDatos(Contribuyente arrayContribuyente[], int lengArray, int* contadorId);
+//void mostrarunContribuyente(Contribuyente arrayContribuyente[]);
+int buscarContribuyente(Contribuyente arrayContribuyente[], int lengArray);
+int modificarDatos(Contribuyente arrayContribuyente[], int lengArray);
 
 
 #endif /* CONTRIBUYENTE_H_ */

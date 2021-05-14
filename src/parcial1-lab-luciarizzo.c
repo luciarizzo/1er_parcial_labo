@@ -47,6 +47,7 @@ typedef struct {
 	int mes;
 	int tipo;
 	float importe;
+	int isEmpty;
 }Recaudacion;
 
 int main(void) {
@@ -75,6 +76,7 @@ int main(void) {
 			}
 			break;
 		case 2:
+			modificarDatos(arrayContribuyente, TAM);
 			break;
 		case 3:
 			break;
@@ -92,3 +94,6 @@ int main(void) {
 	}while(opcion > 0 && opcion < 9);
 
 }
+
+
+
